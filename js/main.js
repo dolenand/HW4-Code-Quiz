@@ -82,7 +82,7 @@ class Question {
             tagH.setAttribute("class", "btnAnswer");
             tagH.setAttribute("onClick", "answerClk(" + i + ")");
             document.querySelector("#quizID").appendChild(tagH);
-        }    
+        }
 
         return true
     }
@@ -170,7 +170,7 @@ function ResultsForm(sec) {
             "time": 0,
             "quiz": []
         }
-        //retrive results from storage 
+        //retrive results from storage
         var storedResults = JSON.parse(localStorage.getItem("results"));
         //If todos are recieved from local storage, update todos array
         if (storedResults !== null) {
@@ -223,7 +223,6 @@ function renderResults() {
     list1.id = "list1";
     list1.style.listStyleType = "none";
     document.querySelector("#quizID").appendChild(list1);
-    
     var tag1;
     var tag2;
     //Render new list for each results
@@ -273,7 +272,7 @@ function renderResults() {
         var index = element.parentElement.parentElement.parentElement.getAttribute("data-index");
         // If that element is a button...
         if (element.matches("button") === true) {
-            // Get its data-index value and remove the element from the list        
+            // Get its data-index value and remove the element from the list
             results.splice(index, 1);
             // Store updated results in localStorage, re-render the list
             storeResults();
