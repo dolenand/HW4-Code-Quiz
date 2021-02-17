@@ -189,12 +189,13 @@ function ResultsForm(sec) {
             }
             ii--;
         }
+
         ClearCard();
         tagH = document.createElement("h2");
         tagH.innerHTML = "Highscores";
         // Stored updated results in localStorage, re-render the list
         storeResults();
-        renderresults();
+        renderResults();
     });
 }
 
@@ -203,7 +204,7 @@ function renderResults() {
     // click initals see test report
     var list1;
     var tagG = document.createElement("h2");
-    tagH.textContent = "Highscores";
+    tagG.textContent = "Highscores";
     tagG.setAttribute("class", "ceneter-align");
     document.querySelector(".topPart").appendChild(tagG);
     //Restore defualts
