@@ -8,39 +8,39 @@ var resLength = 0;
 var timerInterval;
 var quizQuestions = 0 [
     {
-        "question": "Blah Blah Blah:",
-        "answers": ["one", "two", "three"],
-        "right": "four",
+        "question": "What are people who write computer code called?:",
+        "answers": ["Cryptogrophers", "Manufactuerers", "Writers"],
+        "right": "Programmers",
         "user": ""
     },
     {
-        "question": "Blah Blah Blah:",
-        "answers": ["one", "two", "three"],
-        "right": "four",
+        "question": "Which of the following is a programming language?:",
+        "answers": ["Bite", "Gnaw", "Itch"],
+        "right": "Scratch",
         "user": ""
     },
     {
-        "question": "Blah Blah Blah:",
-        "answers": ["one", "two", "three"],
-        "right": "four",
+        "question": "A Syntax Error is?:",
+        "answers": ["An error you will never find", "An error you find at the end when the program gives out a wrong value due to logic error", "An error due to system error"],
+        "right": "An error caused by language rules being broken",
         "user": ""
     },
     {
-        "question": "Blah Blah Blah:",
-        "answers": ["one", "two", "three"],
-        "right": "four",
+        "question": "A very usefull tool used during development and debugging for printing content to thedebugger is:",
+        "answers": ["Javascript", "terminal/bash", "Loops"],
+        "right": "console.log",
         "user": ""
     },
     {
-        "question": "Blah Blah Blah:",
-        "answers": ["one", "two", "three"],
-        "right": "four",
+        "question": "Arrays in JavaScript can be used to store______:",
+        "answers": ["commas", "curly brackets", "parenthesis"],
+        "right": "quotes",
         "user": ""
     },
     {
-        "question": "Blah Blah Blah:",
-        "answers": ["one", "two", "three"],
-        "right": "four",
+        "question": "Who's the best:",
+        "answers": ["Me", "me", "meeee"],
+        "right": "ME!",
         "user": ""
     }
 ];

@@ -24,13 +24,14 @@ body {
   padding: 0;
   display: inline-block;
 }
-#scores
-{
+#scores {
  float: left;
+ color: rgb(90, 14, 232);
 }
 #timerTag
 {
  float: right;
+ color: rgb(90, 14, 232);
 }
 
 .wrapper {
@@ -43,7 +44,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: rgb(90, 14, 232);
 }
 
 .container {
@@ -51,7 +52,7 @@ header {
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: rgb(90, 14, 232);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -76,7 +77,7 @@ header {
 }
 .btnAnswer {
   width: 100%;
-  background-color: darkmagenta;
+  background-color: rgb(90, 14, 232);
   border-radius: 25px;
   color: white;
   text-decoration-style: double;
@@ -97,6 +98,7 @@ header {
 }
 .center-align {
   text-align: center;
+  color: rgb(90, 14, 232);
 }
 .bottomPart {
   text-align: center;
@@ -119,7 +121,7 @@ header {
 
 .btn {
   border: none;
-  background-color: rgb(105, 37, 114);
+  background-color: rgb(90, 14, 232);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
