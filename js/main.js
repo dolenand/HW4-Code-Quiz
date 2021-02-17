@@ -47,6 +47,8 @@ var quizQuestions = 0 [
 var quizUserReply = [];
 var quesNum = 0;
 
+
+
 //Define class that retrives question from dataset, display it, and randomly place correct answer among options
 class Question {
     constructor(a, q, c) {
@@ -132,7 +134,6 @@ function ResultsForm(sec) {
     var form1;
     var inpit1;
     ClearCard();
-    var tagH = document.createElement("h2");
     var tagH = document.createElement("h2");
     tagH.innerHTML = "All done!";
     document.querySelector(".topPart").appendChild(tagH);
@@ -343,7 +344,7 @@ function generateQuiz() {
                 clearInterval(timerInterval);
                 sendMessage();
             }
-            if ((ResultsTime !== 0) || (secondsLeft < 0)) {
+            if ((ResultTime !== 0) || (secondsLeft < 0)) {
                 clearInterval(timerInterval);
             }
         }, 1000);
@@ -361,6 +362,7 @@ function generateQuiz() {
     qSelect.questionOut();
 }
 
-var generateBtn = document.querySelector("generate");
+var generateBtn = document.querySelector("#generate");
 
 generateBtn.addEventListener("click", generateQuiz);
+
